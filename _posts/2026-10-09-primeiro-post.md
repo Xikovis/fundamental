@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Meu Primeiro Post"
+---
+
 # Lista
 1. Item 1
 2. Item 2
