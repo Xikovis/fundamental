@@ -9,8 +9,19 @@ title: "Meu Primeiro Post"
 3. Item 3
 
 ## Tabela
-| pessoa| PJ | classe | XP | nível | ouro |
-|-------|----|--------|----|-------|------|
-| Arnaldo  | Amarílis | guerreiro | 20000 | 5 | 938 |
-| Bernaldo | Bemarílis | ladrão | 0 | 1 | 30 |
-| Cernaldo | Cernarílis | mago | 0 | 1 | 15 |
+<table>
+  {% for row in site.data.tabela %}
+    {% if forloop.first %}
+      <tr>
+        {% for pair in row %}
+          <th>{{ pair[0] }}</th>
+        {% endfor %}
+      </tr>
+    {% endif %}
+    <tr>
+      {% for pair in row %}
+        <td>{{ pair[1] }}</td>
+      {% endfor %}
+    </tr>
+  {% endfor %}
+</table>
