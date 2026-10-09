@@ -17,3 +17,15 @@ header .btn {
 header h1::before {
   content: none !important;
 }
+
+body {
+  font-family: 'JetBrains Mono', monospace !important;
+  font-weight: 400 !important;
+  color: #ffffff !important; /* Ajuste a cor do texto se quiser */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'JetBrains Mono', monospace !important;
+  font-weight: 700 !important; /* Aqui deixa o título mais pesado */
+  color: #ffa500 !important; /* Ajuste a cor dos títulos se quiser */
+}
