@@ -1,5 +1,6 @@
 ---
 ---
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap');
 @import "{{ site.theme }}";
 
 .view {
@@ -18,41 +19,41 @@ header h1::before {
   content: none !important;
 }
 
+/* --- 2. Tipografia (Forçando a fonte em TODOS os elementos) --- */
+html, body, p, li, td, th, blockquote, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sono', 'Courier New', monospace !important;
+}
+
 body {
-  font-family: 'Sono', monospace !important;
   font-weight: 400 !important;
   color: #ffffff !important; /* Texto do corpo em branco */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Sono', monospace !important;
   font-weight: 700 !important; /* Títulos mais pesados */
   color: #ffa500 !important; /* Títulos em laranja */
 }
 
-/* --- Cores dos elementos de destaque (Laranja) --- */
+/* --- 3. Cores dos elementos de destaque (Laranja) --- */
 /* Links */
-a {
+a, a:visited {
   color: #ffa500 !important;
 }
 
-/* Linhas divisórias (---) */
+/* Linhas divisórias (---) - O tema usa background e height, por isso forçamos os dois */
 hr {
+  background: #ffa500 !important;
   background-color: #ffa500 !important;
-  border-color: #ffa500 !important;
+  border: 0 !important;
+  height: 1px !important;
 }
 
-/* Marcadores de item de lista (>>) */
-li::before {
+/* Marcadores de item de lista (>>) e marcadores nativos */
+li::before, li::marker {
   color: #ffa500 !important;
 }
 
 /* Bordas de tabelas */
 table, th, td {
   border-color: #ffa500 !important;
-}
-
-/* Citações (caso use) */
-blockquote {
-  border-left-color: #ffa500 !important;
 }
