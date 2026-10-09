@@ -19,13 +19,40 @@ header h1::before {
 }
 
 body {
-  font-family: 'JetBrains Mono', monospace !important;
+  font-family: 'Sono', monospace !important;
   font-weight: 400 !important;
-  color: #ffffff !important; /* Ajuste a cor do texto se quiser */
+  color: #ffffff !important; /* Texto do corpo em branco */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'JetBrains Mono', monospace !important;
-  font-weight: 700 !important; /* Aqui deixa o título mais pesado */
-  color: #ffa500 !important; /* Ajuste a cor dos títulos se quiser */
+  font-family: 'Sono', monospace !important;
+  font-weight: 700 !important; /* Títulos mais pesados */
+  color: #ffa500 !important; /* Títulos em laranja */
+}
+
+/* --- Cores dos elementos de destaque (Laranja) --- */
+/* Links */
+a {
+  color: #ffa500 !important;
+}
+
+/* Linhas divisórias (---) */
+hr {
+  background-color: #ffa500 !important;
+  border-color: #ffa500 !important;
+}
+
+/* Marcadores de item de lista (>>) */
+li::before {
+  color: #ffa500 !important;
+}
+
+/* Bordas de tabelas */
+table, th, td {
+  border-color: #ffa500 !important;
+}
+
+/* Citações (caso use) */
+blockquote {
+  border-left-color: #ffa500 !important;
 }
