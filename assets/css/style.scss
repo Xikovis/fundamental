@@ -13,3 +13,7 @@ footer {
 header .btn {
   display: none !important;
 }
+
+header h1::before {
+  content: none !important;
+}
