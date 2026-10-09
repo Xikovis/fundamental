@@ -23,42 +23,9 @@ header h1::before {
 body {
   font-family: 'JetBrains Mono', monospace !important;
   font-weight: 400 !important;
-  color: #ffffff !important; /* Ajuste a cor do texto se quiser */
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'JetBrains Mono', monospace !important;
   font-weight: 700 !important; /* Aqui deixa o título mais pesado */
-  color: #ffa500 !important; /* Ajuste a cor dos títulos se quiser */
-}
-
-/* Marcadores de listas (>>) */
-li::before {
-  color: #ffa500 !important;
-}
-
-/* Linhas divisórias (---) */
-hr {
-  background: #ffa500 !important; /* O tema Hacker usa 'background' para a linha */
-  border-color: #ffa500 !important;
-}
-
-/* Bordas de tabelas */
-table th, table td {
-  border: 1px solid #ffa500 !important;
-}
-
-/* Citações (blockquotes) */
-blockquote {
-  border-left-color: #ffa500 !important;
-}
-
-/* Links */
-a {
-  color: #ffa500 !important;
-}
-
-/* Blocos de código e código inline */
-code, pre {
-  color: #ffa500 !important;
-}
+  }
