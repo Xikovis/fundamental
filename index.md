@@ -1,2 +1,2 @@
 # Hello World!
-aqui vai um link legal [legal](https://pt.wikipedia.org/wiki/Legal)
+aqui vai um [link legal](posts/primeiro-post.md)
