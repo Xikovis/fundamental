@@ -32,20 +32,20 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffa500 !important; /* Ajuste a cor dos títulos se quiser */
 }
 
-/* Marcadores de listas (bullets, >>, etc.) */
-ul li::before, ol li::before {
+/* Marcadores de listas (>>) */
+li::before {
   color: #ffa500 !important;
 }
 
 /* Linhas divisórias (---) */
 hr {
-  background-color: #ffa500 !important;
+  background: #ffa500 !important; /* O tema Hacker usa 'background' para a linha */
   border-color: #ffa500 !important;
 }
 
-/* Delimitadores e bordas de tabelas */
-table, th, td {
-  border-color: #ffa500 !important;
+/* Bordas de tabelas */
+table th, table td {
+  border: 1px solid #ffa500 !important;
 }
 
 /* Citações (blockquotes) */
@@ -61,5 +61,4 @@ a {
 /* Blocos de código e código inline */
 code, pre {
   color: #ffa500 !important;
-  border-color: #ffa500 !important;
 }
