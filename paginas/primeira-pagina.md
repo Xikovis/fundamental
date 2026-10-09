@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Meu Primeiro Post"
 ---
 
