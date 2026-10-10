@@ -1,3 +1,7 @@
 remote_theme: jekyll-true-minimal
 plugins:
 - jekyll-remote-theme
+
+collections:
+  pages:
+    output: true
