@@ -1,7 +1,3 @@
-remote_theme: cyevgeniy/jekyll-true-minimal
-plugins:
-  - jekyll-remote-theme
-
 title: Meu Site Pessoal
 description: Site pessoal de 𝕏𝕀𝕂𝕆
 
