@@ -1,14 +1,11 @@
-# Hello World!
-Aqui vai um site Aqui vai um site Aqui vai um site Aqui vai um site Aqui vai um site Aqui vai um site Aqui vai um site Aqui vai um site Aqui vai um site Aqui vai um site Aqui vai um site Aqui vai um site Aqui vai um site Aqui vai um site Aqui vai um site Aqui vai um site Aqui vai um site.
+---
+layout: page
+title: Início
+---
 
-## Páginas do Site
+Bem-vindo ao meu site pessoal!
 
-<ul>
-  {% for page in site.pages %}
-    {% if page.path contains '_pages/' and page.title %}
-      <li>
-        <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+## Navegação
+- [Sobre mim](/sobre/)
+- [Projetos](/projetos/)
+- [Contato](/contato/)
