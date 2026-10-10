@@ -1,6 +1,9 @@
-remote_theme: jekyll-true-minimal
+remote_theme: cyevgeniy/jekyll-true-minimal
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
+
+title: Meu Site Pessoal
+description: Site pessoal de 𝕏𝕀𝕂𝕆
 
 collections:
   pages:
