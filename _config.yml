@@ -1,6 +1,12 @@
 title: Meu Site Pessoal
 description: Site pessoal de 𝕏𝕀𝕂𝕆
 
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 collections:
   pages:
     output: true
