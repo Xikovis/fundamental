@@ -1,8 +1,3 @@
----
-layout: page
-title: Início
----
-
 Bem-vindo ao meu site pessoal!
 
 ## Navegação
