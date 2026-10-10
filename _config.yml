@@ -4,7 +4,3 @@ description: Site pessoal de 𝕏𝕀𝕂𝕆
 collections:
   pages:
     output: true
-
-    header_pages:
-  - index.md
-  - about.md
